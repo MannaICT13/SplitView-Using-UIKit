@@ -11,8 +11,11 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var numberLbl: UILabel!
+    var numberStr = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        numberLbl.text = numberStr
         
     }
 
